@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
-  HomePage({Key? key}) : super(key: key);
+class FlagPage extends StatefulWidget {
+  FlagPage({Key? key}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  _FlagPageState createState() => _FlagPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _FlagPageState extends State<FlagPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,12 +16,17 @@ class _HomePageState extends State<HomePage> {
           Container(
             width: 100.0,
             height: 100.0,
-            color: Colors.amberAccent,
+            color: Colors.white,
           ),
           Container(
             width: 100.0,
             height: 100.0,
-            color: Colors.blueGrey,
+            color: Colors.blueAccent,
+          ),
+          Container(
+            width: 100.0,
+            height: 100.0,
+            color: Colors.redAccent,
           ),
         ],
       ),
