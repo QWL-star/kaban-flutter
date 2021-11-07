@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application/pages/HomePage.dart';
+import 'package:flutter_application/pages/blocks.dart';
 import 'package:flutter_application/pages/russia.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FlagPage(),
+      home: Blocks(),
       debugShowCheckedModeBanner: false,
     );
   }
